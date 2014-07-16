@@ -1,3 +1,4 @@
+##Program to find the longest palindrome
 def longest_palindrome(str1):
     l=len(str1)
     table=[[0 for j in xrange(l)] for i in xrange(l)]
